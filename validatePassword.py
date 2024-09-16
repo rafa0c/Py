@@ -1,5 +1,6 @@
 # Import the 're' module for regular expressions
 import re
+import msvcrt
 # p = "^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).*$"
 
 print ("Should have at least one number.")
