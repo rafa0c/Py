@@ -3,13 +3,19 @@
 import sys
 import random
 import time
+import os
 
 def displayIntro():
 	print('Game Starts now...')
+	os.system("pause")
 	print('You are on a planet full of dragons. In front of you,')
+	os.system("pause")
 	print('you see two caves. In one cave, the dragon is friendly')
+	os.system("pause")
 	print('and will share his treasure with you. The other dragon')
+	os.system("pause")
 	print('is greedy and hungry, and will eat you on sight.')
+	os.system("pause")
 	print('')
 
 def chooseCave():
