@@ -17,7 +17,10 @@ def encrypt(text,s):
     return result
 
 #check the above function
-text = "ATTACKATONCE"
+#text = "ATTACKATONCE"
+
+text =  input('Please enter your text here:\t')
+
 s = 4
 print ("Text  : " + text)
 print ("Shift : " + str(s))
