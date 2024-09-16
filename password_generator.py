@@ -1,5 +1,6 @@
 import string
 import random
+import msvcrt
 
 # Getting password length
 length = int(input("Enter password length: "))
