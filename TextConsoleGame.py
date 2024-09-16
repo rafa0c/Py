@@ -4,9 +4,11 @@ import sys
 import random
 import time
 import os
+import msvcrt
 
 def displayIntro():
-	print('Game Starts now...')
+	key = wait_for_key()
+	key = input("Press any key to start thr game...")
 	os.system("pause")
 	print('You are on a planet full of dragons. In front of you,')
 	os.system("pause")
